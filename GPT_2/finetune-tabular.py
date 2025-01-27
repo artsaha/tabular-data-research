@@ -39,9 +39,9 @@ def train(train_file_path, model_name, output_dir, overwrite_output_dir, per_dev
 
 
 
-train_file_path = "tables.txt"
+train_file_path = "../tables.txt"
 model_name = 'gpt2'
-output_dir = 'models/'
+output_dir = '../models/'
 overwrite_output_dir = False
 per_device_train_batch_size = 8
 num_train_epochs = 2.0
